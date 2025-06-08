@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Park Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#maincontent" class="skip-link">Skip to Main Content</a>
+
+  <!-- Navigation -->
+  <nav>
+    <img src="logo.png" alt="Logo" />
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="parks.html">Parks</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="maincontent">
+    <h1>Welcome to Our Park Website</h1>
+
+    <section class="grid">
+      <div>
+        <img src="park1.jpg" alt="Park 1">
+        <p>Description of Park 1</p>
+      </div>
+      <div>
+        <img src="park2.jpg" alt="Park 2">
+        <p>Description of Park 2</p>
+      </div>
+    </section>
+
+    <section class="flex">
+      <div>
+        <img src="pic1.jpg" alt="Flex Image 1">
+        <p>Flex content 1</p>
+      </div>
+      <div>
+        <img src="pic2.jpg" alt="Flex Image 2">
+        <p>Flex content 2</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+
